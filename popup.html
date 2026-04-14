@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h3>Flash Macros</h3>
+    </div>
+
+    <input type="hidden" id="editIndex" value="-1" />
+    <input type="text" id="title" placeholder="Título da Macro" />
+    <textarea id="text" placeholder="Texto da resposta..." rows="2"></textarea>
+    <button id="save">Salvar Macro</button>
+
+    <hr />
+    <input
+      type="text"
+      id="search"
+      class="search-box"
+      placeholder="Pesquisar macro..."
+    />
+
+    <div class="list-container" id="macroList"></div>
+
+    <div class="footer-actions">
+      <button id="exportBtn" class="secondary-btn">Exportar</button>
+      <button id="importBtn" class="secondary-btn">Importar</button>
+    </div>
+
+    <input type="file" id="fileInput" style="display: none" accept=".json" />
+    
+    <script src="popup.js"></script>
+  </body>
+</html>
