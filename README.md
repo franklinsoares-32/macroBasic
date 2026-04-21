@@ -92,15 +92,7 @@ O objetivo do projeto é aumentar a produtividade no atendimento, reduzindo o te
 
 ---
 
-## 📌 Futuras melhorias (roadmap)
 
-- 🔹 Autocomplete ao digitar `/`  
-- 🔹 Lista de sugestões de macros  
-- 🔹 Interface aprimorada  
-- 🔹 Categorias de macros  
-- 🔹 Sincronização na nuvem  
-
----
 
 ## 👨‍💻 Franklin Soares.
 
